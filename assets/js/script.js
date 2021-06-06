@@ -25,7 +25,7 @@ $(document).ready(function(){
     var timeTracker = function(){
         //current hour
         var timeNow = moment().hour();
-        console.log(timeNow);
+        console.log("The current time is " + timeNow);
 
         $('.time-block').each(function(){
             var hourTime = parseInt($(this).attr("id"));
@@ -34,12 +34,16 @@ $(document).ready(function(){
             //if current time is < hourTime task is in the future
             if(timeNow > hourTime){
                 $(this).addClass('past');
+                
+                
             }
             else if(timeNow === hourTime){
                 $(this).addClass('present');
+               
             }
             else{
                 $(this).addClass('future');
+                
             }
 
         })
@@ -48,14 +52,23 @@ $(document).ready(function(){
 
     timeTracker();
     //Get items in local storage if any
-    $("#8 .description").val(localStorage.getItem("8"));
+    // $("#8 .description").val(localStorage.getItem("8"));
     $("#9 .description").val(localStorage.getItem("9"));
     $("#10 .description").val(localStorage.getItem("10"));
-    $("#11 .description").val(localStorage.getItem("110"));
+    $("#11 .description").val(localStorage.getItem("11"));
+    $("#12 .description").val(localStorage.getItem("12"));
+    $("#13 .description").val(localStorage.getItem("13"));
+    $("#14 .description").val(localStorage.getItem("14"));
+    $("#15 .description").val(localStorage.getItem("15"));
+    $("#16 .description").val(localStorage.getItem("16"));
+    $("#17 .description").val(localStorage.getItem("17"));
 
 })
 
-
+// Left to do:
+// * Complete rows 12-17(12-5)
+// *test to ensure that it refreshes correctly
+// *test shading so it switches between future/present and past
     
 
 
