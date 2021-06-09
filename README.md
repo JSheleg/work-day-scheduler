@@ -17,11 +17,11 @@
 
 ## Pictures:
 
-![Day At 9am](link)
-![Day At 10am](link)
-![Day At 11am](link)
-![Day At 4pm](link)
+![Day At 9am](https://github.com/JSheleg/work-day-scheduler/blob/main/assets/img/dayat9am.JPG)
+![Day At 10am](https://github.com/JSheleg/work-day-scheduler/blob/main/assets/img/dayat10am.JPG)
+![Day At 11am](https://github.com/JSheleg/work-day-scheduler/blob/main/assets/img/dayat11am.JPG)
+![Day At 4pm](https://github.com/JSheleg/work-day-scheduler/blob/main/assets/img/dayat4pm.JPG)
 
 ## Links:
-Git hub repository:
-Plan your day at:
+Git hub repository: https://github.com/JSheleg/work-day-scheduler
+Plan your day at: https://jsheleg.github.io/work-day-scheduler/
