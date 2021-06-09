@@ -23,5 +23,5 @@
 ![Day At 4pm](https://github.com/JSheleg/work-day-scheduler/blob/main/assets/img/dayat4pm.JPG)
 
 ## Links:
-Git hub repository: https://github.com/JSheleg/work-day-scheduler
-Plan your day at: https://jsheleg.github.io/work-day-scheduler/
+* Git hub repository: https://github.com/JSheleg/work-day-scheduler
+* Plan your day at: https://jsheleg.github.io/work-day-scheduler/
