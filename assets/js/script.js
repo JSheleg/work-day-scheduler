@@ -52,7 +52,6 @@ $(document).ready(function(){
 
     timeTracker();
     //Get items in local storage if any
-    // $("#8 .description").val(localStorage.getItem("8"));
     $("#9 .description").val(localStorage.getItem("9"));
     $("#10 .description").val(localStorage.getItem("10"));
     $("#11 .description").val(localStorage.getItem("11"));
